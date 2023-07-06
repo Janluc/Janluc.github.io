@@ -1,0 +1,46 @@
+body{
+  background: url("../images/floating-cogs.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: white;
+}
+
+header{
+background: rgb(19,20,25);
+background: linear-gradient(180deg, rgba(19,20,25,1) 32%, rgba(110,110,110,1) 100%);}
+img {
+  margin: 10px 0;
+}
+a {
+  color: white;
+}
+.jumbo-btn{
+  background-color: #131419;
+  border-color: whitesmoke;
+}
+.jumbo-btn:hover{
+  background: whitesmoke;
+  color: #131419;
+}
+nav{
+  background-color: #131419;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+article {
+  background-color: #131419;
+  box-shadow: 5px 10px;
+}
+
+footer{
+  height: 200px;
+  background-color: #131419;
+}
+
+h2{
+  color: #131419;
+}
